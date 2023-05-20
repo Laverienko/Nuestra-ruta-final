@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: texto;
+    src: url(./fonts/ITCAvantGardeStd-Bk.ttf);
+
+  
+    
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(./fonts/Swiss\ 721\ Black\ Extended\ BT.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(./fonts/Adlinnaka.ttf);
+}
+
+html{
+    background-color: #feba00;
+    font-family: texto;
+    /* porque cuando cambio la etiqueta de html a * el fondo del texto del main cambia al color del fondo que estoy asignando aquí? */
+
+}
+header p{
+    text-align: right;
+    color: #033d55;
+    margin: 1px 113px 1px 1px;
+    font-size: 21px;
+    font-family: subtitulo;
+    
+    
+}
+#encabezado{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.navegador{
+    margin: 92px 10px 1px 46px;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+header img{
+    display: flex;
+    width: 322px;
+    margin: 1px 1px 1px 61px;
+
+    
+
+}
+header a{
+    margin: 34px;
+    font-size: 23px;
+    color: #033d55;
+    font-family: subtitulo;
+}
+
+main{
+    display: flex;
+}
+
+main img{
+    margin: 0px -21px;
+}
+
+main p{
+    width: 80%;
+    
+    
+}
+
+.contenido{
+    margin: 0px 30px;
+   
+}
+
+.contenido h1{
+    font-family: subtitulo;
+    color: #033d55;
+}
+
+form p{
+    color: #999;
+    width: 70%;
+}
+
+.campo{
+    border: #033d55 solid 3px;
+    font-family: texto;
+    width: 93%;
+    padding: 1%;
+    margin: 8px 0px;
+    background: white;
+    outline: none;
+}
+
+textarea{
+    border: #033d55 solid 3px;
+    font-family: texto;
+}
+
+.botonEnviar{
+    background: #033d55;
+    width: 93%;
+    border: none;
+    font-family: subtitulo;
+    text-align: center;
+    height: 43px;
+    padding: 6px;
+    font-size: 20px;
+  
+    
+}
+
+input{
+    background: #033d55;
+    border: none;
+    font-family: subtitulo;
+    color: #feba00;
+    font-size: 14px;
+
+    
+    padding: auto;
+
+}
+
+.boton{
+    font-size: 20px;
+}

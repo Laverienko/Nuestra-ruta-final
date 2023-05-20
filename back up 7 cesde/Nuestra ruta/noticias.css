@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: texto;
+    src: url(./fonts/ITCAvantGardeStd-Bk.ttf);
+
+  
+    
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(./fonts/Swiss\ 721\ Black\ Extended\ BT.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(./fonts/avgr65w.ttf);
+}
+
+html{
+    background-color: #feba00;
+    font-family: texto;
+    /* porque cuando cambio la etiqueta de html a * el fondo del texto del main cambia al color del fondo que estoy asignando aquí? */
+
+}
+header p{
+    text-align: right;
+    color: #033d55;
+    margin: 1px 113px 1px 1px;
+    font-size: 21px;
+    font-family: subtitulo;
+    
+    
+}
+#encabezado{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.navegador{
+    margin: 92px 10px 1px 46px;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+header img{
+    display: flex;
+    width: 322px;
+    margin: 1px 1px 1px 61px;
+
+    
+
+}
+header a{
+    margin: 34px;
+    font-size: 23px;
+    color: #033d55;
+    font-family: subtitulo;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+main div{
+    padding: 10px 20px;
+
+}
+
+
+main h1{
+    font-family: subtitulo;
+    margin: 0px;
+    text-align: start;
+}
+#grupo{
+    display: block;
+    width: 45%;
+
+}
+
+#grupo h1{
+    font-size: 50px;
+}
+
+/* .bloque1{
+    font-size: 50px;
+    width: 55%;
+} */
+
+
+
+.bloque2{
+    width: 20%;
+}
+
+.bloque2 img{
+    width: 100%;
+}
+
+.bloque2 cite{
+    padding-bottom: 15px;
+}
+.bloque3{
+    width: 35%;
+}
+.bloque3 img{
+    width: 100%;
+}

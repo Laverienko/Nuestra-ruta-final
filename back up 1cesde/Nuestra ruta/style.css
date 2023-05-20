@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: texto;
+    src: url(./fonts/ITCAvantGardeStd-Bk.ttf);
+
+  
+    
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(./fonts/Swiss\ 721\ Black\ Extended\ BT.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(./fonts/Adlinnaka.ttf);
+}
+
+html{
+    background-color: #033d55;
+    font-family: texto;
+    /* porque cuando cambio la etiqueta de html a * el fondo del texto del main cambia al color del fondo que estoy asignando aquí? */
+      
+
+
+}
+
+
+header p{
+    text-align: right;
+    color: #feba00;
+    margin: 1px 113px 1px 1px;
+    font-size: 21px;
+    font-family: subtitulo;
+    
+    
+}
+ 
+#encabezado{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.navegador{
+    margin: 92px 10px 1px 46px;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+header img{
+    display: flex;
+    width: 322px;
+    margin: 1px 1px 1px 61px;
+
+    
+
+}
+header a{
+    margin: 34px;
+    font-size: 23px;
+    color: #feba00;
+    font-family: subtitulo;
+}
+
+main{
+    background-color: #feba00;
+    width: 72%;
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 23px 30px 10px 74px;
+    border-radius: 20px;
+    padding: 50px;
+    text-align: left;
+    
+}
+
+main h1{
+    
+}
+
+main p{
+    height: 60%;
+    background-color: aqua;
+}

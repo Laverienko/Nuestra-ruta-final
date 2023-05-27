@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: texto;
+    src: url(./fonts/ITCAvantGardeStd-Bk.ttf);
+
+  
+    
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(./fonts/Swiss\ 721\ Black\ Extended\ BT.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(./fonts/avgr65w.ttf);
+}
+
+html{
+    background-color: #033d55;
+    font-family: texto;
+    /* porque cuando cambio la etiqueta de html a * el fondo del texto del main cambia al color del fondo que estoy asignando aquí? */
+      
+
+
+}
+
+
+header p{
+    text-align: right;
+    color: #feba00;
+    margin: 1px 113px 1px 1px;
+    font-size: 21px;
+    font-family: subtitulo;
+    
+    
+}
+ 
+#encabezado{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.navegador{
+    margin: 92px 10px 1px 46px;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+header img{
+    display: flex;
+    width: 322px;
+    margin: 1px 1px 1px 61px;
+
+    
+
+}
+header a{
+    margin: 34px;
+    font-size: 23px;
+    color: #feba00;
+    font-family: subtitulo;
+}
+
+main{
+    background-color: #feba00;
+    width: 72%;
+    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 23px 30px 10px 74px;
+    border-radius: 20px;
+    padding-left: 75px;
+    padding-top: 16px;
+    text-align: left;
+    
+    
+}
+
+main h1{
+    font-family: titulo;
+    font-size: 2.5em;
+    color: #033d55;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    
+    
+}
+
+main p{
+    width: 36vw;
+    margin: 11px 0px 0px 0px;
+    padding-top: 23px;
+    text-align: justify;
+    
+    
+}
+
+main img{
+    width: 90vh;
+    position: absolute;
+    left: 41.1em;
+    top: 12em;
+    padding: ;
+    
+
+}
+
+.banner{
+    width: 40vh;
+    position: absolute;
+    left: 76.85em;
+    top: 13.6em;
+}
+
+.tituloSimulado {
+    font-family: subtitulo;
+    color: #033d55;
+    font-size: 2.5em;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.logo1{
+    width: 57vh;
+    position: relative;
+    left: 0.1em;
+    top: 0em;
+
+}
+
+/* .logo1{
+    font-family: titulo;
+    color: #033d55;
+    font-size: 4em;
+    margin: 0px;
+}
+
+.logo2{
+    font-family: titulo;
+    color: #033d55;
+    font-size: 8.1em;
+    margin: 0px;
+    
+} */
+main h2{
+    font-family: 'subtitulo';
+    font-size: 27px;
+    position: absolute;
+    left: 31em;
+    top:35rem;
+    color: white;
+    background-color: #033d55;
+    border-radius: 8px;
+    padding: 16px 30px;
+
+}
+
+.nuevoViaje{
+    
+    width: 15%;
+    position: absolute;
+    /* background-color: aqua; */
+    height: 9%;
+    top: 582px;
+    right: 480px;
+
+}

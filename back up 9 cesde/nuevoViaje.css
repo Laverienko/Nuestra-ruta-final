@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: texto;
+    src: url(./fonts/ITCAvantGardeStd-Bk.ttf);
+
+  
+    
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(./fonts/Swiss\ 721\ Black\ Extended\ BT.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(./fonts/avgr65w.ttf);
+}
+
+html{
+    background-color: #033d55;
+    font-family: texto;
+    /* porque cuando cambio la etiqueta de html a * el fondo del texto del main cambia al color del fondo que estoy asignando aquí? */
+
+}
+
+main{
+    background-color: #feba00;
+    width: 80%;
+    height: 80vh;
+    position: relative;
+    top: 10vh;
+    margin: auto;
+    border-radius: 20px;
+}
+
+main img{
+    width: 87%;
+    margin: 35px 13px;
+    position: relative;
+}
+
+
+
+#logo img{
+    width: 40%;
+}
+
+#fondo2{
+    position: absolute;
+    left: 540px;
+    top: -120px;
+    
+}
+
+#fondo2 img{
+    width: 120%;
+}
+
+section{
+   /*  margin: 10px 80px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0% 5%;
+   margin-top: 1%;
+    
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    
+    
+}
+
+.ubicacion p{
+    padding: 0px 10px 10px ;
+}
+
+.destino{
+    display: flex;
+    justify-content: start;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    
+}
+
+input{
+    
+    width: 70%;
+    border: #033d55 solid 3px;
+    padding: 10px;
+    margin: 30px;
+    font-family: texto;
+    outline: none;
+}
+
+#boton{
+    border: none;
+    background: #033d55;
+    color: white;
+    font-family: subtitulo;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+.textoBoton{
+
+    width: 4%;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.ubicacion .botonEnviar{
+    font-family: subtitulo;
+    font-size: 10px;
+    font-size: 20px;
+    background-color: #033d55;
+    color: white;
+    font-size: 20px;
+    padding: 0.7% 1%;
+    /* height: 1%; */
+    /* width: 125%; */
+    border-radius: 5.5px;
+}
+
+.ubicacion .destino{
+    width: 50px;
+}
+.destino .textoBoton{
+    justify-content: center;
+}
+
+.destino .botonEnviar{
+    font-family: subtitulo;
+    font-size: 10px;
+    font-size: 20px;
+    background-color: #033d55;
+    color: white;
+    font-size: 20px;
+    padding: 13% 37%;
+    height: 1%;
+    border-radius: 5.5px;
+
+    
+
+}   
+
+.botonEnviar a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.textoBoton p{
+    justify-content: center;
+    
+}
+
+/* .botonEnviar{
+    justify-content: center;
+    background-color: aqua;
+    text-decoration: none;
+    
+} */
+
+.ir{
+    
+    width: 5%;
+}
+
+
+
+
+

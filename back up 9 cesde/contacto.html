@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./contacto.css">
+</head>
+<body>
+    <header>
+        <p>Registro</p>
+        
+        <section id="encabezado">
+            <img src="./images/logo nuestra ruta azul.png" alt="Logo Nuestra ruta">    
+        
+        
+       
+        <!-- estaba intentado dividir en css img con p aparte del nav para que se muestro como quiero conteniendolos en un section pero no funciona  -->
+            <nav class="navegador">
+                <a href="index.html">Inicio</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="rutas.html">Rutas</a>
+                <a href="reporte.html">Reporte</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="recorridos.html">Recorridos</a>
+            </nav>
+        </section>
+
+    </header>
+    <main>
+        <img src="./images/Fondo decoracion 2.png" alt="Fondo ilustrado">
+        <div class="contenido">
+            <h1>Entremos en contacto</h1>
+
+            <p>Nos encantaría saber de ti. Tu opinión es fundamental para nosotros. Si tienes alguna pregunta,
+                comentario o sugerencia, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y
+                brindarte el mejor servicio posible. Completa el formulario de contacto a continuación y nos
+                comunicaremos contigo a la brevedad. ¡Tu satisfacción es nuestra prioridad! 
+            </p>
+
+            <form form action="https://formsubmit.co/97bf173c70c97fd2bc676e6277616d1f" method="POST" method="post
+            " >
+            
+                <input type="text" name="Nombre" class="campo" id="nombre" placeholder="Nombre">
+                <br>
+                
+                <input type="email" id="email" name="email" class="campo" placeholder="e-Mail">
+                <br>
+                
+                <input type="tel" id="telefono" name="telefono" class="campo" placeholder="Teléfono">
+                <br>
+                <div class="boton">
+
+                <textarea class="campo" name="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+                <br>
+                <p class="botonEnviar">
+                <input type="submit" name="Enviar" value="Enviar" id="enviar">
+
+                 <input type="hidden" name="_next" value="https://nuestraruta.000webhostapp.com/contacto.html">
+                <input type="hidden" name="_captcha" value="false">
+                </p>
+                </div>
+            </form>
+
+        </div>
+    </main>
+</body>
+</html>

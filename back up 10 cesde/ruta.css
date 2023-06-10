@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: texto;
+    src: url(./fonts/ITCAvantGardeStd-Bk.ttf);
+
+  
+    
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(./fonts/Swiss\ 721\ Black\ Extended\ BT.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(./fonts/avgr65w.ttf);
+}
+
+html{
+    background-color: #feba00;
+    font-family: texto;
+    /* porque cuando cambio la etiqueta de html a * el fondo del texto del main cambia al color del fondo que estoy asignando aquí? */
+
+}
+header p{
+    text-align: right;
+    color: #033d55;
+    margin: 1px 113px 1px 1px;
+    font-size: 21px;
+    font-family: subtitulo;
+    
+    
+}
+#encabezado{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.navegador{
+    margin: 92px 10px 1px 46px;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+header img{
+    display: flex;
+    width: 322px;
+    margin: 1px 1px 1px 61px;
+
+    
+
+}
+header a{
+    margin: 34px;
+    font-size: 130%;
+    color: #033d55;
+    font-family: subtitulo;
+}
+
+main{
+    display: flex;
+    padding: 10px 0px 0px 75px;
+}
+
+/* div{
+    padding-right: 45px;
+} */
+#bloque1 {
+    padding-right: 45px;
+    width: 100%;
+    font-size: 100%;
+}
+
+.buscar{
+    display: flex;
+    /* justify-content: space-evenly; */
+    
+}
+
+.buscar input{
+    font-family: texto;
+    padding: 10px;
+    width:84%;
+    height: 3em;
+    border: #033d55 solid 3.5px;
+
+
+}
+
+
+.buscar img{
+    background-color: #033d55;
+    position: relative;
+    width: 45px;
+    padding: 6px 9px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 11px;
+}
+
+.segmento1{
+    font-family: texto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #033d55;
+}
+
+.segmento2{
+    font-family: subtitulo;
+    margin: 0px;
+    padding: 0px;
+    color: #033d55;
+    font-size: 35px;
+}
+
+.segmento3{
+    font-family: texto;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #033d55;
+}
+.imagenRuta img{
+    width: 60%;
+}
+
+
+.busqueda{
+    width: 100%
+
+}
+
+main p{
+    text-align: justify;
+    margin-top: 10%;
+}
+
+h3{
+    font-family: subtitulo;
+    font-size: 27px;
+    margin-bottom: 0px;
+    color: #033d55;
+}
+
+h4{
+    font-family: texto;
+    color: #033d55;
+    font-size: 27px;
+    margin: 0px;
+
+}
+
+h5{
+    font-family: subtitulo;
+    font-size: 27px;
+    margin-top: 15px;
+    color: #033d55;
+    margin-bottom: 15px;
+}
+
+h6{
+    font-size: 18px;
+    color: #feba00;
+    background-color: #033d55;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+}
+@media screen and (max-width: 900px) {
+    main{
+        flex-direction: column;
+    }
+    .ImagenRuta img{
+        width: 100%;
+    }
+    main p{
+        margin-top: 0px;
+    }
+    .imagenRuta{
+        display: flex;
+        align-items: center;
+    }
+    .imagenRuta img{
+        margin-left: 60px;
+    }
+    #encabezado{
+        flex-direction: column;
+    }
+    .navegador {
+        margin: 22px auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    header a{
+        display: flex;
+        flex-direction: column;
+        margin: 12px;
+    }
+}

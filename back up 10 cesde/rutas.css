@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: texto;
+    src: url(./fonts/ITCAvantGardeStd-Bk.ttf);
+
+  
+    
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(./fonts/Swiss\ 721\ Black\ Extended\ BT.ttf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(./fonts/avgr65w.ttf);
+}
+
+html{
+    background-color: #feba00;
+    font-family: texto;
+    /* porque cuando cambio la etiqueta de html a * el fondo del texto del main cambia al color del fondo que estoy asignando aquí? */
+
+}
+header p{
+    text-align: right;
+    color: #033d55;
+    margin: 1px 113px 1px 1px;
+    font-size: 21px;
+    font-family: subtitulo;
+    
+    
+}
+#encabezado{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.navegador{
+    margin: 92px 10px 1px 46px;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+header img{
+    display: flex;
+    width: 322px;
+    margin: 1px 1px 1px 61px;
+
+    
+
+}
+header a{
+    margin: 34px;
+    font-size: 130%;
+    color: #033d55;
+    font-family: subtitulo;
+}
+
+main{
+    /* display: flex; */
+   /*  align-items: center; */
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    
+}
+
+.container{
+    
+    text-align: center;
+}
+
+.container h1{
+    text-align: center;
+    font-family: subtitulo;
+    color: #033d55;
+
+
+}
+
+input{
+    width: 50vw;
+    height: 5vh;
+    outline: none;
+    border: #033d55 solid 3px;
+    padding: 10px;
+    font-family: texto;
+}
+
+.barra{
+    margin: auto;
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main img{
+    background-color: #033d55 ;
+    padding: 5px;
+    width: 2rem;
+    margin: 10px;
+    border-radius: 5px;
+    
+
+}
+
+button{
+    background-color: #033d55;
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    width: 5%;
+    
+
+}
+
+
+
+.list{
+    text-align: center;
+    font-size: 25px;
+    color: #033d55;
+    margin: 20px auto;
+    width: 70%;
+    display: block;
+    align-items: center;
+    
+
+}
+
+.list :hover{
+    background-color: #033d55;
+    color: #feba00;
+}
+
+.list hr{
+    border: #033d55 solid 1px;
+    margin: 0px;
+}
+
+.list p{
+  
+    padding: 10px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    #encabezado{
+        flex-direction: column;
+    }
+    .navegador {
+        margin: 22px auto;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    header a{
+        display: flex;
+        flex-direction: column;
+        margin: 12px;
+    }
+}
